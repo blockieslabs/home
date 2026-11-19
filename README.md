@@ -58,6 +58,8 @@ The design is complete enough to implement against. There is no code yet.
   (`C-n`, `P-n`, `S-n`) so they can be cited.
 - **Four execution traces** that the specifications were derived from and are tested against.
 - **A JSON Schema** with 29 conformance vectors, validated against a complete example World.
+- **A performance analysis** with 120 findings across A0–A6, each with the technique that
+  removes the cost without changing a trace.
 - **A field guide** in HTML for learning the model.
 
 Three things are deliberately still open: the effects protocol, the canonical encoding used for
