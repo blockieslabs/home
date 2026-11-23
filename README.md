@@ -40,7 +40,7 @@ not before.
 ```mermaid
 flowchart TB
   A6["A6 Operators<br/>humans · agents · automation"] --> A5["A5 Clients<br/>CLI · TUI · web · native · mobile"]
-  A5 --> A4["A4 Presentation<br/>renderers · Type packages · LOD"]
+  A5 --> A4["A4 Presentation<br/>renderers · Blueprints · LOD"]
   A4 --> A3["A3 Host &amp; Session<br/>loop · views · grants · persistence"]
   A3 --> A2["A2 Adapters<br/>script engines · effects · simulation"]
   A2 --> A1["A1 Core<br/>document · validator · transactions"]
@@ -53,7 +53,7 @@ Dependencies point up only. No layer reaches past its neighbour.
 
 The design is complete enough to implement against. There is no code yet.
 
-- **45 decisions**, recorded and cross-checked for consistency.
+- **46 decisions**, recorded and cross-checked for consistency.
 - **Three specifications** — core model, process, composite — with numbered requirements
   (`C-n`, `P-n`, `S-n`) so they can be cited.
 - **Four execution traces** that the specifications were derived from and are tested against.
