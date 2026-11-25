@@ -53,7 +53,7 @@ Dependencies point up only. No layer reaches past its neighbour.
 
 The design is complete enough to implement against. There is no code yet.
 
-- **46 decisions**, recorded and cross-checked for consistency.
+- **47 decisions**, recorded and cross-checked for consistency.
 - **Three specifications** — core model, process, composite — with numbered requirements
   (`C-n`, `P-n`, `S-n`) so they can be cited.
 - **Four execution traces** that the specifications were derived from and are tested against.
